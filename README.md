@@ -44,3 +44,17 @@ const IncrementsDecrements = () => {
 
 export default IncrementsDecrements
 ```
+
+# 2. Range Set 0 to 100
+```jsx
+if (number < 0) return setNumber(0)
+if (number > 100) return setNumber(100)
+or
+{/*disabled={number >= 100}  */}
+<button onClick={() => setNumber(number + step)} disabled={number>=100} className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-md transition">
+    Increment
+</button>
+<button onClick={() => setNumber(number - step)} disabled={number <= 0}  className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-md transition">
+                    Decrement
+                </button>
+```
