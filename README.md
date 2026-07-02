@@ -45,7 +45,7 @@ const IncrementsDecrements = () => {
 export default IncrementsDecrements
 ```
 
-# 2. Range Set 0 to 100
+# 2. Range Set 0 to 100 using Disabled key
 ```jsx
 if (number < 0) return setNumber(0)
 if (number > 100) return setNumber(100)
